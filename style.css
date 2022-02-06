@@ -1,0 +1,126 @@
+body {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    margin: 0 0;
+    padding: 0 0;
+    background-color: rgb(3, 139, 139);
+}
+
+header {
+    position: fixed;
+    display: flex;
+    width: 100vw;
+    height: 100px;
+    background-color: rgb(1, 105, 105);
+    align-items: center;
+}
+
+h2 {
+    color: white;
+    margin: 0 0;
+    margin-left: 50px;
+}
+
+h3 {
+    color: rgb(29, 29, 29);
+    margin: 20px 20px 10px 20px;
+}
+
+.main {
+    width: 100vw;
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 130px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 0 0;
+    overflow-x: scroll;
+}
+
+.desk {
+    margin: 0 10px;
+    background-color: rgb(216, 214, 214);
+    min-width: 300px;
+    max-width: 400px;
+    height: 700px;
+    border-radius: 10px;
+    overflow-y: scroll;
+}
+
+p {
+    margin: 10px 0;
+}
+
+.task {
+    background-color: #fff;
+    margin: 10px 20px 10px 20px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.icons {
+    display: flex;
+    padding: 0 0;
+}
+
+.left {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+    margin-right: auto;
+}
+
+.right {
+    width: 40px;
+    height: 40px;
+    background-size: 40px 40px;
+    background-repeat: no-repeat;
+}
+
+.man{
+    background-image: url(assets/avatar_1.png);
+}
+
+.woman{
+    background-image: url(assets/avatar_2.png);
+}
+
+.boy{
+    background-image: url(assets/avatar_3.png);
+}
+
+.justify {
+    margin-top: -2px;
+    width: 15px;
+    height: 15px;
+    background-image: url(assets/justify_26.png);
+    background-size: 15px 15px;
+    background-repeat: no-repeat;
+}
+
+.checkbox {
+    background-image: url(assets/checkbox_26.png);
+    background-size: 15px 15px;
+    background-position: 20% 20%;
+    background-repeat: no-repeat;
+    padding-left: 25px;
+}
+
+
+.attach {
+    background-image: url(assets/attach_26.png);
+    background-size: 15px 15px;
+    background-position: 20% 30%;
+    background-repeat: no-repeat;
+    padding-left: 20px;
+}
+
+.comment {
+    background-image: url(assets/comments_26.png);
+    background-size: 15px 15px;
+    background-position: 20% 50%;
+    background-repeat: no-repeat;
+    padding-left: 20px;
+}
